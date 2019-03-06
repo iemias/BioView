@@ -20,6 +20,13 @@
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
 
+  <style>
+    tr td b{ color:green ;}
+  </style>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -28,7 +35,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-            <img src="img/LOGO.png" alt="" width="200px">
+            <img src="img/logo.png" alt="" width="200px">
           </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,72 +64,160 @@
     </div>
   </nav>
 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Blended to Perfection</span>
-              <span class="section-heading-lower">Coffees &amp; Teas</span>
-            </h2>
-          </div>
-        </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg" alt="">
-        <div class="product-item-description d-flex mr-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Page Content -->
+    <div class="container bg-faded" style="font-family:Raleway">
 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex mr-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-              <span class="section-heading-lower">Bakery &amp; Kitchen</span>
-            </h2>
-          </div>
-        </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg" alt="">
-        <div class="product-item-description d-flex ml-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <!-- Portfolio Item Heading -->
+      <h2 class="my-4">Setting up</h2>
 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">From Around the World</span>
-              <span class="section-heading-lower">Bulk Speciality Blends</span>
-            </h2>
-          </div>
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <img class="img-fluid" src="img/method.jpg" alt="">
         </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg" alt="">
-        <div class="product-item-description d-flex mr-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>
-          </div>
+
+        <div class="col-md-4">
+          <ol>
+            <li>Place the module onto a flat area and make sure it is connected to the battery back and powered. Ensure that at this stage you are connected with your PC to the module via bluetooth.</li><br>
+            <li>Place your sample flask onto the module.</li><br>
+            <li>Gently drop the mirror module into the flask, ensuring the mirror side faces down. The mirror should move itself to a desirable position based on the magnetic attraction from the base. Now using the provided application (included USB drive with product), press "Callibration" to initiate callibration.</li><br>
+            <li>Once callibration is completed, gently move the setup into an incubator.</li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container bg-faded" style="font-family:Raleway">
+
+      <!-- Page Heading -->
+      <h2 class="my-4">Setting parameters and recording data</h2>
+
+      <!-- Project One -->
+      <div class="row bg-faded">
+        <div class="col-md-12">
+          <ol>
+            <li>In the application, set an OD600 value at which ou would like to receive your warning. The default is set at OD600 of 0.6.</li><br>
+            <li>Press "Start Recording" in the application, ensuring your PC volume is audible and not muted.</li><br>
+            <li>Now you can start the incubator, however make sure the flask is safely supported, and the module does not move in relation to the flask.</li><br>
+            <li>When the preset OD600 is achieved, your PC will notify you with a buzzer, at which point you can add your reagent into the bacteria culture.</li><br>
+            <li>If you would like to view the data recorded by the module, click "View Data" to generate a OD600 vs. time graph of all recorded data.</li>
+          </ol>
         </div>
       </div>
     </div>
-  </section>
+
+
+
+<!------ Include the above in your HEAD tag ---------->
+
+    <div class="container bg-faded" style="font-family:Raleway">
+
+    		<h2 class="my-4">Product Information</h2>
+
+
+    		<table class="table table-bordered success">
+    				<thead>
+    					<tr >
+    						<th >Product Name:</th>
+    						<td>BactoViewer</td>
+    					</tr>
+    					<tr>
+    						<th class="info">Product Dimensions:</th>
+    						<td>Width: 140mm, Height: 150mm, Depth: 60mm </td>
+    					</tr>
+    					<tr>
+    						<th class="info">Laser Wavelength:</th>
+    						<td>660 nm</td>
+    					</tr>
+    					<tr>
+    						<th class="info">Power Supply:</th>
+    						<td>9V battery (replecable)</td>
+    					</tr>
+    					<tr>
+    						<th class="info">Application Compatibility:</th>
+    						<td>Windows</td>
+    					</tr>
+    					<tr >
+    						<th  class="info">Price:</th>
+    						<td>£ 100 (excluding VAT and shipping costs)</td>
+    					</tr>
+    				</thead>
+    			</table>
+          <br>
+    </div>
+
+
+
+    <!-- Page Content -->
+    <div class="container bg-faded" style="font-family:Raleway">
+
+      <!-- Page Heading -->
+      <h2 class="my-4">From idea to prototype</h2>
+
+      <!-- Project One -->
+      <div class="row bg-faded">
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/concept.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>Initial concept design</h3>
+          <p>Our initial concept design started from this sketch. We started from a basic concept which measured Optical Density (OD) by some means, thereby informing the operator at the optimal point to inject a reagent. It was key to make it modular which does not require external power, thereby making it possible to be inserted into an incubator.</p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Project One -->
+      <div class="row bg-faded">
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/concept3.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>Creating a realistic idea</h3>
+          <p>Upon attempting to recreate multiple design iterations, we concluded that this structure was the most realistic, which uses a 660nm laser to shine a ray into the flask, upon which it is reflected by a mirror and bounced back to a photodiode in the module.  </p><br />
+          <p>Professionals such as postgraduates and lecturers were consulted for a realistic price point and desired functionalities and priorities.</p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Project One -->
+      <div class="row bg-faded">
+        <div class="col-md-4">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="img/concept2.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>Prototyping with actual circuitry</h3>
+          <p>Our next steps were to reproduce our concept with actual cicruitry. This stage was a key in planning a reasonable footprint for the module, and making sure the circuitry does not get damaged by accidental spills. </p><br>
+          <p>From this point forward, significant prototyping was undergone to obtain the optimal shape whilst maintaining accuracy and precision in measurements. </p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+
+
+    </div>
+      <!-- /.container -->
+<!-- /.container -->
+
+
+
 
   <footer class="footer text-faded text-center py-5">
     <div class="container">
-      <p class="m-0 small">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 small">Copyright &copy; BactoView 2019</p>
     </div>
   </footer>
 

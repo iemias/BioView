@@ -20,6 +20,33 @@
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
 
+  <!-- cookies-->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#252e39"
+      },
+      "button": {
+        "background": "#14a7d0"
+      }
+    },
+    "type": "opt-out",
+    "content": {
+      "message": "We use technology such as cookies on our site to personalise content and ads, provide social media features, and analyse our traffic. Click below to consent to the use of this technology across the web. Click 'Show Purposes' for further information. ",
+      "dismiss": "Got it!",
+      "deny": "Refuse Cookies",
+      "link": "Show Purposes"
+    }
+  })});
+
+
+
+  </script>
+
 </head>
 
 <body>
@@ -28,7 +55,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
       <a class="navbar-brand" href="index.html">
-            <img src="img/LOGO.png" alt="" width="200px">
+            <img src="img/logo.png" alt="" width="200px">
           </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -69,7 +96,7 @@
           <p class="mb-3" style="font-family:Raleway">A modular laser-based spectrophotometer which can be used in an incubator, to measure optical density of bio-cultures, and alert the user when a specified OD is reached.
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Learn more</a>
+            <a class="btn btn-primary btn-xl" style="font-family:Raleway" href="#">Learn more</a>
           </div>
         </div>
       </div>
@@ -82,14 +109,14 @@
 
 
   <!-- Header -->
-  <header class="bg-primary text-center py-5 mb-4">
+  <header class="bg-primary text-center py-5 mb-4" style="font-family:Raleway">
     <div class="container">
       <h1 class="font-weight-light text-white">Meet the Team</h1>
     </div>
   </header>
 
   <!-- Page Content -->
-  <div class="container">
+  <div class="container" style="font-family:Raleway">
     <div class="row">
       <!-- Kaimei Suroda -->
       <div class="col-xl-3 col-md-6 mb-4">
@@ -98,7 +125,7 @@
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Kaimei Suroda</h5>
             <div class="card-text text-black-50">Circuit Designer</div>
-            <div class="card-text text-black-50"><font size="-1">Text</font></div>
+            <div class="card-text text-black-50" style="text-align: justify;"><font size="-1">Kaimei is our circuit designer, in charge of planning the electrical circuitry. He studied material science prior to joining us, with significant background in material selection. Together with circuit design, Kaimei helps the hardware design and processing.</font></div>
           </div>
         </div>
       </div>
@@ -109,7 +136,7 @@
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Grandon Buntoro</h5>
             <div class="card-text text-black-50">Programmer</div>
-            <div class="card-text text-black-50"><font size="-1">Text</font></div>
+            <div class="card-text text-black-50" style="text-align: justify;"><font size="-1">Grandon is in charge of programming our product. His background is in bioengineering, with specialization in automation. Other than leading the programming, Grandon assists our research into the biological process of bacterial growth.</font></div>
           </div>
         </div>
       </div>
@@ -120,7 +147,7 @@
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Caul Pameron</h5>
             <div class="card-text text-black-50">Hardware Designer</div>
-            <div class="card-text text-black-50"><font size="-1">Text</font></div>
+            <div class="card-text text-black-50" style="text-align: justify;"><font size="-1">Caul is our hardware designer specializing in Computer Aided Drawing (CAD). He is responsible for all of our CAD drawings and 3D-printing of prototypes. His background is in bioengineering, hence is also deeply involved into our bacterial growth research.</font></div>
           </div>
         </div>
       </div>
@@ -131,7 +158,7 @@
           <div class="card-body text-center">
             <h5 class="card-title mb-0">Tana Aeck</h5>
             <div class="card-text text-black-50">Hardware Designer</div>
-            <div class="card-text text-black-50"><font size="-1">Text</font></div>
+            <div class="card-text text-black-50" style="text-align: justify;"><font size="-1">Tana is our hardware designer focusing on analysing mechanical stability and integrity of our product. Her background is in chemical engineering, however she has executed numerous extensive projects in mechanical engineering, prior to joining us. </font></div>
           </div>
         </div>
       </div>
@@ -141,29 +168,12 @@
   </div>
 
   <!-- /.container -->
-
-<!--
-  <section class="page-section cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <div class="cta-inner text-center rounded">
-            <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Our Promise</span>
-              <span class="section-heading-lower">To You</span>
-            </h2>
-            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
--->
   <footer class="footer text-faded text-center py-5">
     <div class="container">
-      <p class="m-0 small">Copyright &copy; BioView 2019</p>
+      <p class="m-0 small">Copyright &copy; BactoView 2019</p>
     </div>
   </footer>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
