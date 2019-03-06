@@ -20,6 +20,47 @@
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
 
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+      /* Tabs*/
+    section {
+      padding: 60px 0;
+    }
+
+    section .section-title {
+      text-align: center;
+      color: #007b5e;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+    }
+    #tabs{
+    background: #007b5e;
+      color: #eee;
+    }
+    #tabs h6.section-title{
+      color: #eee;
+    }
+
+    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+      color: #f3f3f3;
+      background-color: transparent;
+      border-color: transparent transparent #f3f3f3;
+      border-bottom: 4px solid !important;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #tabs .nav-tabs .nav-link {
+      border: 1px solid transparent;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      color: #eee;
+      font-size: 20px;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -36,89 +77,152 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="index.html" style="font-family:Raleway">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html" style="font-family:Raleway">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="products.html">Products</a>
+            <a class="nav-link" href="products.html" style="font-family:Raleway">Products</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="Additional.html">Additional Info
+            <a class="nav-link" href="Additional.html" style="font-family:Raleway">Additional Info
                   <span class="sr-only">(current)</span>
                 </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact</a>
+            <a class="nav-link" href="Contact.html" style="font-family:Raleway">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Blended to Perfection</span>
-              <span class="section-heading-lower">Coffees &amp; Teas</span>
-            </h2>
-          </div>
-        </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg" alt="">
-        <div class="product-item-description d-flex mr-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">We take pride in our work, and it shows. Every time you order a beverage from us, we guarantee that it will be an experience worth having. Whether it's our world famous Venezuelan Cappuccino, a refreshing iced herbal tea, or something as simple as a cup of speciality sourced black coffee, you will be coming back for more.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex mr-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Delicious Treats, Good Eats</span>
-              <span class="section-heading-lower">Bakery &amp; Kitchen</span>
-            </h2>
-          </div>
-        </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg" alt="">
-        <div class="product-item-description d-flex ml-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Our seasonal menu features delicious snacks, baked goods, and even full meals perfect for breakfast or lunchtime. We source our ingredients from local, oragnic farms whenever possible, alongside premium vendors for specialty goods.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="page-section">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">From Around the World</span>
-              <span class="section-heading-lower">Bulk Speciality Blends</span>
-            </h2>
-          </div>
-        </div>
-        <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg" alt="">
-        <div class="product-item-description d-flex mr-auto">
-          <div class="bg-faded p-5 rounded">
-            <p class="mb-0">Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America. We sell our blends in smaller to large bulk quantities. Please visit us in person for more details.</p>
-          </div>
-        </div>
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Portfolio Item Heading -->
+    <h2 class="my-4" style="font-family:Raleway">Page Heading
+      <small>Secondary Text</small>
+    </h1>
+
+    <!-- Portfolio Item Row -->
+    <div class="row" style="padding-bottom:10px">
+
+      <div class="col-md-4">
+        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
       </div>
+
+      <div class="col-md-8 bg-faded">
+        <h3 class="my-3" style="font-family:Raleway">Project Description</h3>
+        <p style="font-family:Raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+      </div>
+
     </div>
+    <!-- /.row -->
+
+
+    <!-- Portfolio Item Row -->
+    <div class="row" style="padding-bottom:10px">
+
+      <div class="col-md-4">
+        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+      </div>
+
+      <div class="col-md-8 bg-faded">
+        <h3 class="my-3" style="font-family:Raleway">Project Description</h3>
+        <p style="font-family:Raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item Row -->
+    <div class="row" style="padding-bottom:10px">
+
+      <div class="col-md-4">
+        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+      </div>
+
+      <div class="col-md-8 bg-faded">
+        <h3 class="my-3" style="font-family:Raleway">Project Description</h3>
+        <p style="font-family:Raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+    <!-- Portfolio Item Row -->
+    <div class="row" style="padding-bottom:10px">
+
+      <div class="col-md-4">
+        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+      </div>
+
+      <div class="col-md-8 bg-faded">
+        <h3 class="my-3" style="font-family:Raleway">Project Description</h3>
+        <p style="font-family:Raleway">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+
+
+  <!------ Include the above in your HEAD tag ---------->
+
+  <!-- Tabs -->
+  <section id="tabs">
+  	<div class="container" style="font-family:Raleway">
+  		<h6 class="section-title h1">Tabs</h6>
+  		<div class="row">
+  			<div class="col-xs-12 ">
+  				<nav>
+  					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+  						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+  						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+  						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+  						<a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">About</a>
+  					</div>
+  				</nav>
+  				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+  					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+  					</div>
+  					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+  					</div>
+  					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+  					</div>
+  					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+  						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+  					</div>
+  				</div>
+
+  			</div>
+  		</div>
+  	</div>
   </section>
+  <!-- ./Tabs -->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <footer class="footer text-faded text-center py-5">
     <div class="container">
